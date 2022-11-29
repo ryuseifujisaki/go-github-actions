@@ -3,7 +3,7 @@ name: Reviewdog
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   golangci-lint:
